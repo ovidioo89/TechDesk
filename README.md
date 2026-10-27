@@ -26,16 +26,45 @@ Estou utilizando o projeto para colocar em prática meus conhecimentos em HTML, 
 
 ## 02. Funcionalidades
 
-O desenvolvimento está sendo realizado por etapas.
+O desenvolvimento está sendo realizado por etapas. Abaixo estão algumas funcionalidades previstas para o TeckDesk
 
-Algumas das funcionalidades previstas são:
+### Gerenciamento de chamados
 
-- Registro de chamados técnicos;
-- Identificação do solicitante e departamento;
-- Organização das solicitações em uma tabela;
-- Controle de status dos atendimentos;
-- Pesquisa e filtragem de chamados;
-- Interface adaptada para diferentes telas.
+- Cadastro de novos chamados técnicos;
+- Identificação do solicitante e do departamento;
+- Descrição do problema apresentado;
+- Listagem de chamados em uma tabela;
+- Acompanhamento das solicitações registradas.
+
+### Controle de atendimento
+
+- Classificação dos chamados por status;
+- Identificação de chamados pendentes;
+- Atualização do andamento dos atendimentos;
+- Visualização de chamados concluídos.
+
+### Dashboard
+
+- Indicador de chamados registrados;
+- Indicador de chamados abertos;
+- Indicador de chamados em andamento;
+- Indicador de chamados suspensos;
+- Indicador de chamados concluídos;
+- Visão geral das solicitações.
+
+### Pesquisa e organização
+
+- Pesquisa de chamados;
+- Filtro por status;
+- Filtro por prioridade;
+- Organização das informações;
+- Interface intuitiva para navegação.
+
+### Armazenamento e interfae
+
+- Layout responsivo;
+- Interface desenvolvida com HTML, CSS E JavaScript;
+- Persistência dos dados usando LocalStorage;
 
 <br>
 
