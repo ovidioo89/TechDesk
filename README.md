@@ -1,104 +1,79 @@
 <div align="center">
 
-# 🖥️ TechDesck
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:FF0000&height=170&section=header&text=TechDesck&fontSize=55&fontColor=FF3333&animation=fadeIn&fontAlignY=35&desc=HELPDESK%20%7C%20FRONT-END%20PROJECT&descAlignY=58&descSize=16" width="100%"/>
 
-### Sistema de Gerenciamento de Chamados de TI
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1200&color=FF3333&center=true&vCenter=true&width=650&lines=Technical+Support+Management;Front-end+Development;Project+in+Progress..." />
 
-*Organização, tecnologia e praticidade em um só lugar.*
+<br>
 
-![Status](https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-FF3333?style=for-the-badge&labelColor=000000)
-![Front-end](https://img.shields.io/badge/FRONT--END-PROJECT-FF3333?style=for-the-badge&labelColor=000000)
-
-</div>
-
----
-
-## 📌 Sobre o projeto
-
-O *TechDesck* é um projeto de sistema web voltado ao gerenciamento de chamados de suporte técnico.
-
-Seu objetivo é proporcionar uma interface simples, intuitiva e organizada para o registro, a visualização e o acompanhamento de solicitações de TI.
-
-O projeto também faz parte do meu desenvolvimento acadêmico e profissional como estudante de Engenharia de Software, com foco em Front-end.
-
----
-
-## 🚀 Funcionalidades planejadas
-
-- [ ] Cadastro de chamados técnicos.
-- [ ] Listagem de solicitações.
-- [ ] Identificação do solicitante e departamento.
-- [ ] Classificação de chamados por status.
-- [ ] Pesquisa e filtragem de solicitações.
-- [ ] Interface responsiva.
-- [ ] Painel de acompanhamento.
-
-As funcionalidades serão implementadas gradualmente conforme a evolução do projeto.
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=FF3333)
-![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=FF3333)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FF3333)
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FF3333)
-![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FF3333)
+![HTML](https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=FF3333)
+![CSS](https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css&logoColor=FF3333)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=FF3333)
 
 </div>
 
----
+<br>
 
-## 🎯 Objetivos do desenvolvimento
+## 01. Sobre
 
-- Aprimorar conhecimentos em HTML, CSS e JavaScript.
-- Desenvolver interfaces modernas e funcionais.
-- Aplicar conceitos de organização e estruturação de código.
-- Praticar versionamento utilizando Git e GitHub.
-- Construir um projeto relevante para meu portfólio profissional.
+O TechDesck é um projeto pessoal de desenvolvimento Front-end, baseado na ideia de um sistema para gerenciamento de chamados de suporte técnico.
 
----
+A proposta surgiu do meu contato com a área de suporte de TI e da vontade de desenvolver algo relacionado à minha experiência profissional.
 
-## 📂 Estrutura do projeto
+Estou utilizando o projeto para colocar em prática meus conhecimentos em HTML, CSS e JavaScript, trabalhando tanto na parte visual quanto nas funcionalidades do sistema.
 
-    TechDesck/
-    │
-    ├── index.html
-    ├── style.css
-    ├── script.js
-    ├── README.md
-    │
-    └── assets/
-        └── img/
+<br>
 
-Estrutura de referência, sujeita a alterações durante o desenvolvimento.
+## 02. Funcionalidades
 
----
+O desenvolvimento está sendo realizado por etapas.
 
-## 📈 Status do projeto
+Algumas das funcionalidades previstas são:
 
-O TechDesck está em fase de desenvolvimento.
+- Registro de chamados técnicos;
+- Identificação do solicitante e departamento;
+- Organização das solicitações em uma tabela;
+- Controle de status dos atendimentos;
+- Pesquisa e filtragem de chamados;
+- Interface adaptada para diferentes telas.
 
-Novas funcionalidades, melhorias visuais e ajustes de usabilidade serão incorporados progressivamente.
+<br>
 
----
+## 03. Tecnologias
 
-## 👨‍💻 Desenvolvedor
+| Tecnologia | Aplicação |
+| :--- | :--- |
+| HTML5 | Estrutura das páginas |
+| CSS3 | Estilização e organização visual |
+| JavaScript | Interatividade e funcionalidades |
+| Git | Versionamento do código |
+| GitHub | Hospedagem do repositório |
+
+<br>
+
+## 04. Desenvolvimento
+
+O TechDesck ainda está em construção.
+
+A ideia é desenvolver cada parte gradualmente, testando novas funcionalidades e melhorando a estrutura do código conforme avanço nos estudos.
+
+Este repositório será atualizado durante esse processo.
+
+<br>
+
+## 05. Autor
 
 *Miguel Expedito Ovidio dos Santos*
 
-Estudante de Engenharia de Software | Front-end Developer em formação.
+Engenharia de Software — 2º semestre  
+Desenvolvimento Front-end
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ovidioo89)
+[GitHub](https://github.com/ovidioo89)
 
----
+<br>
 
 <div align="center">
 
-*TechDesck © 2026*
-
-Desenvolvido com dedicação, aprendizado e evolução contínua.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,50:1a0000,100:000000&height=100&section=footer" width="100%"/>
 
 </div>
