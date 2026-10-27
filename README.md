@@ -72,8 +72,8 @@ O desenvolvimento está sendo realizado por etapas. Abaixo estão algumas funcio
 
 | Tecnologia | Aplicação |
 | :--- | :--- |
-| HTML5 | Estrutura das páginas |
-| CSS3 | Estilização e organização visual |
+| HTML | Estrutura das páginas |
+| CSS | Estilização e organização visual |
 | JavaScript | Interatividade e funcionalidades |
 | Git | Versionamento do código |
 | GitHub | Hospedagem do repositório |
