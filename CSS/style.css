@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #101013;
+    color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #25252c;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #7f1d1d;
+}
+
+header {
+    color: white;
+    background-color: #19191e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.logo-destaque {
+    color: #991b1b !important;
+}
+
+h2 {
+    color: white;
+}
+
+.card {
+    background-color: #19191e;
+    padding: 12px;
+    border-radius: 10px;
+
+    min-width: 0;
+    padding: 16px 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    gap: 6px;
+}
+
+.card h3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+.titulo-painel {
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+
+.card p {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    line-height: 1;
+}
+
+.indicadores {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+
+    width: 95%;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+table {
+    width: 95%;
+    max-width: 1500px;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+
+    background-color: #19191e;
+    border: 1px solid #393940;
+    border-radius: 12px;
+
+    overflow: hidden;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #25252c;
+    font-size: 14px;
+}
+
+td {
+    background-color: #19191e;
+    border-bottom: 2px solid #25252c;
+    border: 2px solid #25252c;
+    color: white;
+}
+
+th {
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: #19191e;
+
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+
+    font-size: 13px;
+
+    
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #19191e;
+    border: 1px solid #393940;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+    background-color: #25252c;
+    color: #FFFFFF;
+    border: 1px solid #55555f;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #c5c5cc;
+    opacity: 1;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: 2px solid #19191e;
+    outline-offset: 2px;
+    transition: 0.2s ease;
+}
+
+form button {
+    background-color: #7f1d1d;
+    color: white;
+
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #991b1b;
+}
+
+.prioridade,
+.status {
+    width: auto;
+    min-height: auto;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #e4e4e7;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.btn-visualizar {
+    background-color: #7f1d1d;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.btn-visualizar:hover {
+    background-color: #991b1b;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+form input,
+form textarea {
+    cursor: text;
+}
+
+form select {
+    cursor: pointer;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 240px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 900px) {
+    .indicadores {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .indicadores {
+        grid-template-columns: 1fr;
+    }
+}
