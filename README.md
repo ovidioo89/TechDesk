@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:FF0000&height=170&section=header&text=TechDesck&fontSize=55&fontColor=FF3333&animation=fadeIn&fontAlignY=35&desc=HELPDESK%20%7C%20FRONT-END%20PROJECT&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:FF0000&height=170&section=header&text=TechDesk&fontSize=55&fontColor=FF3333&animation=fadeIn&fontAlignY=35&desc=HELPDESK%20%7C%20FRONT-END%20PROJECT&descAlignY=58&descSize=16" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1200&color=FF3333&center=true&vCenter=true&width=650&lines=Technical+Support+Management;Front-end+Development;Project+in+Progress..." />
 
