@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDesk</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <header>
+        <div class="container">
+            <h1>Tech<span class="logo-destaque">Desk</span></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="chamados.html">Chamados</a></li>
+                    <li><a href="novo-chamdo.html">Novo Chamado</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <h2 class="titulo-painel">Abertura de Chamado</h2>
+
+        <form>
+            <label for="nome">Nome Completo: 
+                
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    minlength="3"
+                    required
+                    placeholder="Digite seu nome"
+                >
+            </label>
+            <label for="departamento">Departamento: </label>
+
+            <select id="departamento" name="departamento" required>
+                <option value="">Selecione o departamento</option>
+                <option value="rh">Recursos Humanos</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="ti">Tecnologia da Informação</option>
+            </select>
+
+            <label for="prioridade">Prioridade: </label>
+
+            <select id="prioridade" name="prioridade" required>
+                <option value="">Selecione a prioridade</option>
+                <option value="baixa">Baixa</option>
+                <option value="media">Média</option>
+                <option value="alta">Alta</option>
+            </select>
+
+            <label for="descricao">Descrição do problema: </label>
+
+            <textarea
+                id="descricao"
+                name="descricao"
+                rows="5"
+                required
+                placeholder="Descreva o problema"
+            ></textarea>
+
+            <button type="submit">Abrir chamado</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+        <p>&copy; TechDesk 2026 | Desenvolvido por Miguel Ovidio</p>
+    </div>
+    </footer>
+</body>
+</html>
